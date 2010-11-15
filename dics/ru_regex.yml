@@ -1,1 +1,5 @@
 ru_regex:
+  !ruby/regexp '/следующ(ая|ие|ую|ей)/': next week
+  !ruby/regexp '/сред(у|а)/': wendsday
+  !ruby/regexp '/воскресенье/': sunday
+  !ruby/regexp '/^сегодня$/': 'today 00:00'
